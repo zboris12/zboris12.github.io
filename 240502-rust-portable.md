@@ -1,5 +1,5 @@
 # Setup a portable rust on Windows
-🏗 Created on 2024/5/2
+✨ Created on 2024/5/2
 
 ### 1. Download rust from URL:  
 https://static.rust-lang.org/dist/rust-1.77.2-x86_64-pc-windows-gnu.tar.gz
