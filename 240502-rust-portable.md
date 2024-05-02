@@ -27,3 +27,5 @@ xcopy /e /y %from%\rust-std-x86_64-pc-windows-gnu\* %to%\
 ```batch
 set path=%to%\bin;%path%
 ```
+
+[🚗BACK](/)
