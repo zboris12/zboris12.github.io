@@ -5,7 +5,7 @@ If your widget's build does not require data from an asynchronous operation,
 you can simply use the then method of the [Future class](https://api.dart.dev/stable/3.4.2/dart-async/Future-class.html).  
 However, if you do need data from an asynchronous operation, how can you wait for it?  
 
-> [!TIP]
+> [!TIP]  
 > In my case, I use the [Completer class](https://api.flutter.dev/flutter/dart-async/Completer-class.html) and [FutureBuilder class](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html) to address this issue.  
 > Below is the sample code.
 
