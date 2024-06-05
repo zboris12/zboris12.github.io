@@ -1,3 +1,8 @@
+---
+title: Flutter - Waiting for an asynchronous operation in initState
+description: A solution of waiting for an asynchronous operation in initState
+last_modified_at: 2024-05-11
+---
 # Make ![Surfshark-VPN icon](https://surfshark.com/website/_next/public/global/favicon-32.png)Surfshark-VPN to connect to a specific server without responding to prompts on Linux(legacy)
 ✨ Created on 2024/5/11
 

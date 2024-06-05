@@ -1,4 +1,10 @@
+---
+title: Flutter - Waiting for an asynchronous operation in initState
+description: A solution of waiting for an asynchronous operation in initState
+last_modified_at: 2024-06-05
+---
 # [Flutter](https://flutter.dev/): Waiting for an asynchronous operation in [initState](https://api.flutter.dev/flutter/widgets/State/initState.html)
+✨ Created on 2024/6/5
 
 Since the [initState](https://api.flutter.dev/flutter/widgets/State/initState.html) method is not asynchronous, you cannot use await within [initState](https://api.flutter.dev/flutter/widgets/State/initState.html).  
 If your widget's build does not require data from an asynchronous operation,  

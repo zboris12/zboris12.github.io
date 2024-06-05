@@ -1,3 +1,8 @@
+---
+title: Setup a portable rust on Windows
+description: A solution of installing a portable rust on Windows
+last_modified_at: 2024-05-02
+---
 # Setup a portable rust on Windows
 ✨ Created on 2024/5/2
 
