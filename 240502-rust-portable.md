@@ -1,7 +1,7 @@
 ---
 title: Setup a portable rust on Windows
 description: A solution of installing a portable rust on Windows
-last_modified_at: 2024-05-02
+last_modified_at: 2024-05-02T12:00:00+09:00
 ---
 # Setup a portable rust on Windows
 ✨ Created on 2024/5/2
@@ -33,4 +33,4 @@ xcopy /e /y %from%\rust-std-x86_64-pc-windows-gnu\* %to%\
 set path=%to%\bin;%path%
 ```
 
-[🚗BACK](/)
+[🚗BACK](/README.html)

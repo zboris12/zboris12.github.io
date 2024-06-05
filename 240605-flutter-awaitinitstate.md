@@ -1,7 +1,7 @@
 ---
-title: Flutter - Waiting for an asynchronous operation in initState
-description: A solution of waiting for an asynchronous operation in initState
-last_modified_at: 2024-06-05
+title: Flutter | Waiting for an asynchronous operation in initState
+description: Flutter | A solution of waiting for an asynchronous operation in initState method
+last_modified_at: 2024-06-05T12:00:00+09:00
 ---
 # [Flutter](https://flutter.dev/): Waiting for an asynchronous operation in [initState](https://api.flutter.dev/flutter/widgets/State/initState.html)
 ✨ Created on 2024/6/5
@@ -61,3 +61,5 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+
+[🚗BACK](/README.html)

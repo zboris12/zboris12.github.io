@@ -9,4 +9,9 @@ defaults:
       path: ".well-known/*"
     values:
       sitemap: false
+  -
+    scope:
+      path: "googlefa4a36a2e15b6118.html"
+    values:
+      sitemap: false
 author: zboris12
