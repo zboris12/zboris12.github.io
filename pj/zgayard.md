@@ -1,5 +1,5 @@
 ---
-title: [zgayard] Create a safety yard in your online storage
+title: zgayard Create a safety yard in your online storage
 description: A security tool to encrypt or decrypt files in Microsoft Onedrive or Google Drive.
 last_modified_at: 2024-03-25T18:21:44+09:00
 ---
