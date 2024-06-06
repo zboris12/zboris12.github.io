@@ -1,5 +1,5 @@
 ---
-title: [ZgaPdfSigner] A javascript tool to sign a pdf or set protection of a pdf
+title: ZgaPdfSigner | A javascript tool to sign a pdf or set protection of a pdf
 description: A javascript tool to sign a pdf or set protection of a pdf in web browser or nodejs or Google Apps Script.
 last_modified_at: 2024-04-22T21:19:54+09:00
 ---

@@ -1,5 +1,5 @@
 ---
-title: [zgacrypto] An addon of Tablacus Explorer to do encryption and decryption
+title: zgacrypto | An addon of Tablacus Explorer to do encryption and decryption
 description: An addon of Tablacus Explorer to do encryption and decryption with AES algorithms. And also can calculate files' hash value of MD5, SHA-1, SHA-256, SHA-512.
 last_modified_at: 2024-04-27T13:18:06+09:00
 ---

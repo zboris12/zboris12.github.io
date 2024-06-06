@@ -1,5 +1,5 @@
 ---
-title: [kaigyo.js] A little javascript module to break line of CJK characters
+title: kaigyo.js | A little javascript module to break line of CJK characters
 description: A little javascript module to make sentence of CJK characters more human-friendly by breaking line at appropriate position.
 last_modified_at: 2023-11-17T21:41:00+09:00
 ---
