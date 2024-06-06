@@ -26,8 +26,8 @@ import { breakLine } from "kaigyo.js";
 ## Function Definitions
 
 ### calcWidth
-:fondue::fondue::fondue:  
-calcWidth(str) :arrow_right: number  
+🫕🫕🫕  
+calcWidth(str) ➡️ number  
 Calculate the width of a string.  
 (1 for CJK characters, 0.5 for others)
 
@@ -36,8 +36,8 @@ Name | Type | Attributes | Description
 str | string | required | The target string
 
 ### breakLine
-:fondue::fondue::fondue:  
-breakLine(str, cpl, lc, lf) :arrow_right: string  
+🫕🫕🫕  
+breakLine(str, cpl, lc, lf) ➡️ string  
 Insert break line to a string.  
 
 Name | Type | Attributes | Description

@@ -35,7 +35,7 @@ For example:
 C:\TablacusExplorer\addons\zgacrypto\
 ```
 3. Restart [Tablacus Explorer](https://github.com/tablacus/TablacusExplorer)
-4. Click menu: `Tools` :arrow_right: `Add-ons...`
+4. Click menu: `Tools` ➡️ `Add-ons...`
 5. Enable zgacrypto in popup window
 
 ## How To Use
@@ -43,13 +43,13 @@ C:\TablacusExplorer\addons\zgacrypto\
 ### From context menu
 
 Just right click the files, and select the operation from context menu.  
-![context menu](screenshot-cmenu.png "context menu")
+![context menu](https://raw.githubusercontent.com/zboris12/teaddon-zgacrypto/main/screenshot-cmenu.png "context menu")
 
 ### From tool bar
 
 1. Add action to tool bar and specify `Type` to `Add-ons`.
 2. And choose add-ons of zgacrypto from list.  
-![toolbar](screenshot-toolbar.png "toolbar")
+![toolbar](https://raw.githubusercontent.com/zboris12/teaddon-zgacrypto/main/screenshot-toolbar.png "toolbar")
 
 ## License
 

@@ -3,7 +3,7 @@ title: nppyscripts | Some python scripts for Notepad++
 description: zen-han | to convert Japanese characters between full-width and half-width, between katakana and hiragana. sortjsonyaml | to sort json or yaml file by keys. copyfiles | to copy files from a directory to another directory.
 last_modified_at: 2023-03-30T18:56:33+09:00
 ---
-# [nppyscripts.md](https://github.com/zboris12/nppyscripts)
+# [nppyscripts](https://github.com/zboris12/nppyscripts)
 Some python scripts for [Notepad++](https://notepad-plus-plus.org/).
 
 * [Full-width ⇔ Half-width](#zen-han)
