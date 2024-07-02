@@ -139,8 +139,9 @@ export const handler: Handler<SeqNextValueEvent, number> = async (event, context
 import * as db from 'aws-cdk-lib/aws-dynamodb';
 // This is the function of seqNextValue
 const snvfunc = backend.seqNextValue.resources.lambda as Function;
-// Create a stack for parameter creation.
+// Create a stack for table creation.
 const stack = backend.createStack('zbstack');
+// Create the table.
 const seqdb = new db.TableV2(stack, 'seqdb', {
   tableName: `Sequence-${stack.artifactId}`,
   partitionKey: {
