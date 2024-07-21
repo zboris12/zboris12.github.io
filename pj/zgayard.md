@@ -69,4 +69,6 @@ The UI of the webpage is powered by [Tailwind CSS](https://tailwindcss.com/).
 ## License
 
 This application is available under the
-[MIT license](https://opensource.org/licenses/MIT).
+[MIT license](https://opensource.org/licenses/MIT).  
+
+[🚗BACK](/README.html)

@@ -54,4 +54,6 @@ Just right click the files, and select the operation from context menu.
 ## License
 
 This application is available under the
-[MIT license](https://opensource.org/licenses/MIT).
+[MIT license](https://opensource.org/licenses/MIT).  
+
+[🚗BACK](/README.html)

@@ -14,4 +14,9 @@ defaults:
       path: "googlefa4a36a2e15b6118.html"
     values:
       sitemap: false
+  -
+    scope:
+      path: "index.html"
+    values:
+      sitemap: false
 author: zboris12

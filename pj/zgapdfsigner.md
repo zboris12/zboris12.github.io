@@ -384,4 +384,6 @@ async function signAndProtect2(pdf, cert, pwd){
 ## License
 
 This tool is available under the
-[MIT license](https://opensource.org/licenses/MIT).
+[MIT license](https://opensource.org/licenses/MIT).  
+
+[🚗BACK](/README.html)

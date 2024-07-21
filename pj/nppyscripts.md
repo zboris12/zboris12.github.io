@@ -100,4 +100,6 @@ Just copy `CopyFiles.py` file to the scripts' folder. For example:
 ## License
 
 These scripts are available under the
-[MIT license](https://opensource.org/licenses/MIT).
+[MIT license](https://opensource.org/licenses/MIT).  
+
+[🚗BACK](/README.html)

@@ -50,5 +50,6 @@ lf  | string | optional | The symbol of line break<br /> Default is "\n"
 ## License
 
 This module is available under the
-[MIT license](https://opensource.org/licenses/MIT).
+[MIT license](https://opensource.org/licenses/MIT).  
 
+[🚗BACK](/README.html)
