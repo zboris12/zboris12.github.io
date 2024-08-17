@@ -1,7 +1,7 @@
 ---
 title: ZgaPdfSigner | A javascript tool to sign a pdf or set protection of a pdf
 description: A javascript tool to sign a pdf or set protection of a pdf in web browser or nodejs or Google Apps Script.
-last_modified_at: 2024-08-10T22:25:15+09:00
+last_modified_at: 2024-08-17T12:10:58+09:00
 ---
 <div align="center"><img src="https://raw.githubusercontent.com/zboris12/zgapdfsigner/main/logo.png" title="zgapdfsigner"></div>
 
@@ -93,9 +93,18 @@ pdfkit.loadZga(globalThis);
 ```
 npm install zgapdfsigner
 ```
+If using [typescript](https://www.typescriptlang.org/) for development, installation of [definitely typed for node-forge](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-forge) is necessary.
+```
+npm install --save-dev @types/node-forge
+```
 2. Import
 ```js
+// CommonJS Mode
 const Zga = require("zgapdfsigner");
+// ES Module Mode
+import { default as Zga } from "zgapdfsigner";
+// Typescript
+import * as Zga from "zgapdfsigner";
 ```
 
 ## Let's sign
