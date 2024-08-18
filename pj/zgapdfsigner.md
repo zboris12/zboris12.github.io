@@ -1,7 +1,7 @@
 ---
 title: ZgaPdfSigner | A javascript tool to sign a pdf or set protection of a pdf
 description: A javascript tool to sign a pdf or set protection of a pdf in web browser or nodejs or Google Apps Script.
-last_modified_at: 2024-08-17T12:10:58+09:00
+last_modified_at: 2024-08-18T21:52:27+09:00
 ---
 <div align="center"><img src="https://raw.githubusercontent.com/zboris12/zgapdfsigner/main/logo.png" title="zgapdfsigner"></div>
 
@@ -56,9 +56,10 @@ Just import the dependencies and this tool.
 <script src="https://unpkg.com/node-forge@1.3.1/dist/forge.min.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/zgapdfsigner/dist/zgapdfsigner.min.js" type="text/javascript"></script>
 ```
-When drawing text by non-standard font, importing the fontkit library is necessary.
+When drawing text for signature, importing fontkit and pako library is necessary.
 ```html
 <script src="https://unpkg.com/@pdf-lib/fontkit/dist/fontkit.umd.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/pako@1.0.11/dist/pako_inflate.min.js" type="text/javascript"></script>
 ```
 
 ### [Google Apps Script](https://developers.google.com/apps-script)
@@ -73,8 +74,10 @@ function setTimeout(func, sleep){
 var window = globalThis;
 // Load pdf-lib
 eval(UrlFetchApp.fetch("https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js").getContentText());
-// It is necessary for drawing text by non-standard font.
+// It is necessary for drawing text for signature.
 eval(UrlFetchApp.fetch("https://unpkg.com/@pdf-lib/fontkit/dist/fontkit.umd.min.js").getContentText());
+// Load pako, It is necessary for drawing text for signature.
+eval(UrlFetchApp.fetch("https://unpkg.com/pako@1.0.11/dist/pako_inflate.min.js").getContentText());
 // Load node-forge
 eval(UrlFetchApp.fetch("https://unpkg.com/node-forge@1.3.1/dist/forge.min.js").getContentText());
 // Load ZgaPdfSigner
