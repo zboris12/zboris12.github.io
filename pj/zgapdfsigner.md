@@ -1,7 +1,7 @@
 ---
 title: ZgaPdfSigner | A javascript tool to sign a pdf or set protection of a pdf
 description: A javascript tool to sign a pdf or set protection of a pdf in web browser or nodejs or Google Apps Script.
-last_modified_at: 2024-08-19T21:56:00+09:00
+last_modified_at: 2024-08-24T12:25:11+09:00
 ---
 <div align="center"><img src="https://raw.githubusercontent.com/zboris12/zgapdfsigner/main/logo.png" title="zgapdfsigner"></div>
 
@@ -23,9 +23,9 @@ And I use this name to hope the merits from this application will be dedicated t
 * A visible signature can be placed on multiple pages. (In the same position)
 * Sign a pdf and set [DocMDP](https://github.com/zboris12/zgapdfsigner/wiki/API#note).
 * Add a new signature to a pdf if it has been signed already. (An incremental update)
-* Add a document timestamp from [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note). ( 🚫__Not__ available in web browser)
-* Sign a pdf with a timestamp from [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note). ( 🚫__Not__ available in web browser)
-* Enable signature's [LTV](https://github.com/zboris12/zgapdfsigner/wiki/API#note). ( 🚫__Not__ available in web browser)
+* Add a document timestamp from [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note). ( 🚫__Not__ available in web browser 🌻)
+* Sign a pdf with a timestamp from [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note). ( 🚫__Not__ available in web browser 🌻)
+* Enable signature's [LTV](https://github.com/zboris12/zgapdfsigner/wiki/API#note). ( 🚫__Not__ available in web browser 🌻)
 * Set password protection to a pdf. Supported algorithms:
   * 40bit RC4 Encryption
   * 128bit RC4 Encryption
@@ -37,7 +37,9 @@ And I use this name to hope the merits from this application will be dedicated t
 ## About signing with [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note) and [LTV](https://github.com/zboris12/zgapdfsigner/wiki/API#note)
 
 Because of the [CORS](https://github.com/zboris12/zgapdfsigner/wiki/API#note) security restrictions in web browser,
-signing with a timestamp from [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note) or enabling [LTV](https://github.com/zboris12/zgapdfsigner/wiki/API#note) can only be used in [Google Apps Script](https://developers.google.com/apps-script) or [nodejs](https://nodejs.org/).
+signing with a timestamp from [TSA](https://github.com/zboris12/zgapdfsigner/wiki/API#note) or enabling [LTV](https://github.com/zboris12/zgapdfsigner/wiki/API#note) can only be used in [Google Apps Script](https://developers.google.com/apps-script) or [nodejs](https://nodejs.org/).  
+🌻 However, if you can avoid the [CORS](https://github.com/zboris12/zgapdfsigner/wiki/API#note) security restrictions
+by creating your own service or providing a reverse proxy server, these features are also available in web browser.
 
 ## The Dependencies
 
