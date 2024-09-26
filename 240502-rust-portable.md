@@ -1,10 +1,10 @@
 ---
 title: Setup a portable rust on Windows
 description: A solution of installing a portable rust on Windows
-last_modified_at: 2024-09-19T21:31:35+09:00
+last_modified_at: 2024-09-26T21:30:40+09:00
 ---
 # Setup a portable rust on Windows
-✨ Created on 2024/5/2 &nbsp;&nbsp;&nbsp;&nbsp; ✨ Updated on 2024/9/19
+✨ Created on 2024/5/2 &nbsp;&nbsp;&nbsp;&nbsp; ✨ Updated on 2024/9/26
 
 ## Main Procedure
 ### 1. Download rust from the [rust page](https://forge.rust-lang.org/infra/other-installation-methods.html#standalone-installers).  
@@ -30,6 +30,8 @@ xcopy /e /y %from%\cargo\* %to%\
 xcopy /e /y %from%\rustc\* %to%\
 xcopy /e /y %from%\rust-mingw\* %to%\
 xcopy /e /y %from%\rust-std-x86_64-pc-windows-gnu\* %to%\
+rem (optional) rustfmt
+xcopy /e /y %from%\rustfmt-preview\* %to%\
 ```
 
 ### 5. Add rust to path.
