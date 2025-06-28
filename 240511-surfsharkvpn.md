@@ -1,13 +1,14 @@
 ---
-title: Flutter - Waiting for an asynchronous operation in initState
-description: A solution of waiting for an asynchronous operation in initState
-last_modified_at: 2024-05-11T12:00:00+09:00
+title: Surfshark-VPN - to connect a specific server without responding to prompts on Linux
+description: A solution for Surfshark-VPN to connect a specific server without responding to prompts on Linux command.
+last_modified_at: 2024-06-28T15:16:00+09:00
 ---
 # Make ![Surfshark-VPN icon](https://surfshark.com/website/_next/public/global/favicon-32.png)Surfshark-VPN to connect to a specific server without responding to prompts on Linux(legacy)
-✨ Created on 2024/5/11
+✨ Created on 2024/5/11 &nbsp;&nbsp;&nbsp;&nbsp; ✨ Updated on 2025/6/28
 
 ### 1. Install Surfshark-VPN of Linux:  
-https://support.surfshark.com/hc/en-us/articles/360017418334-How-to-set-up-Surfshark-VPN-on-Linux-Legacy-version
+https://support.surfshark.com/hc/en-us/articles/360017418334-How-to-set-up-Surfshark-VPN-on-Linux-Legacy-version  
+※Note: It only supports amd64 and does not support arm64.
 
 ### 2. Start Surfshark-VPN to connect to a specific server in the usual way:
 ```sh
